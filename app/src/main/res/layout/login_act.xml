@@ -9,9 +9,10 @@
     <EditText
             android:layout_width="0dp"
             android:layout_height="50dp"
+            android:paddingLeft="20dp"
             android:inputType="textPersonName"
             android:ems="10"
-            android:background="#484d49"
+            android:background="@drawable/rounded_edge_text_regis_login_act"
             android:textColor="@android:color/darker_gray"
             android:textColorHint="@android:color/darker_gray"
             android:id="@+id/login_username" android:layout_marginTop="350dp"
@@ -21,10 +22,11 @@
             app:layout_constraintHorizontal_bias="0.0" android:hint="Username Or Email"/>
     <EditText
             android:layout_width="0dp"
-            android:background="#484d49"
+            android:background="@drawable/rounded_edge_text_regis_login_act"
             android:layout_height="50dp"
             android:inputType="textPassword"
             android:ems="10"
+            android:paddingLeft="20dp"
             android:textColor="@android:color/darker_gray"
             android:textColorHint="@android:color/darker_gray"
             android:id="@+id/login_password" android:layout_marginTop="8dp"
@@ -34,7 +36,7 @@
     <Button
             android:text="Log in"
             android:layout_width="0dp"
-            android:background="#949494"
+            android:background="@drawable/rounded_edge_button_regis_login_act"
             android:layout_height="wrap_content"
             android:id="@+id/login_submit" android:layout_marginTop="40dp"
             app:layout_constraintTop_toBottomOf="@+id/login_password" app:layout_constraintEnd_toEndOf="@+id/login_password"
