@@ -7,3 +7,4 @@ This is my very first android studio project...For years being in touch with jav
 * Workin with Intent class, Starting a new Activity
 * Get to know more about Toast class and how to make toast in android studio project
 * Get to know the basic functionality of FirebaseAuth class default methods like getInstance, createUserWithEmailAndPassword, addOnSuccessListener, addOnFailureListener, addOnCompleteListener
+* Get to know about drawable
