@@ -82,4 +82,15 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintHorizontal_bias="0.498"/>
 
+    <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:civ_border_color="#949494"
+            app:civ_border_width="3dp"
+            app:layout_constraintEnd_toEndOf="@+id/main_reg_profile_picture"
+            app:layout_constraintStart_toStartOf="@+id/main_reg_profile_picture"
+            app:layout_constraintBottom_toBottomOf="@+id/main_reg_profile_picture"
+            app:layout_constraintTop_toTopOf="@+id/main_reg_profile_picture"
+            android:id="@+id/main_reg_profile_pic"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

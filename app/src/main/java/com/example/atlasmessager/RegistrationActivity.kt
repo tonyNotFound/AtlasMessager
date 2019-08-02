@@ -34,8 +34,10 @@ class RegistrationActivity : Activity() {
         if (requestCode == 0 && data != null) {
             val uri = data.data
             val bitmap = MediaStore.Images.Media.getBitmap(contentResolver, uri)
-            val bitmapDrawable = BitmapDrawable(bitmap)
-            main_reg_profile_picture.setBackgroundDrawable(bitmapDrawable)
+            main_reg_profile_pic.setImageBitmap(bitmap)
+//            val bitmapDrawable = BitmapDrawable(bitmap)
+//            main_reg_profile_picture.setBackgroundDrawable(bitmapDrawable)
+            main_reg_profile_picture.alpha = 0f
         }
     }
     private fun createUserWithEmailAndPassword() {
